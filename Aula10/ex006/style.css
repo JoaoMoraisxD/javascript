@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(img/wallpaper004.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+div {
+    margin-bottom: 5px;
+}
+
+div#area {
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgb(10, 142, 10), rgb(42, 221, 42));
+    width: 200px;
+    height: 50px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    
+    color: white;
+    border-radius: 10px;
+}
+
+div#area:hover {
+    background-image: linear-gradient(to bottom, rgb(0, 83, 0) rgb(0, 152, 0));
+}
+
+div > p {
+    margin: auto;
+   text-align: center;
+   padding-top: 10px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 250px;
+    height: 300px;
+    margin-top: 25vh;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.659);
+}
+
+div#area {
+    margin-top: 5px;
+}
