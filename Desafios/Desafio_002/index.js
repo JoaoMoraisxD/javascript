@@ -1,7 +1,9 @@
-let button = window.document.getElementById('bt')
+let bt = window.document.getElementById('bt')
 
-button.addEventListener ('click', clicar)
+bt.addEventListener('click', clicar)
 
-function clicar(){
-   window.prompt ('Qual seu nome? ')
+function clicar() {
+   let n1 = window.prompt ('Qual seu nome? ')
+   window.alert  (`Ola ${n1}. Seja bem vindo !`)
 }
+   
