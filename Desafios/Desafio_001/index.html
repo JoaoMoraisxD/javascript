@@ -7,24 +7,44 @@
     <title>Desafio 001</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
         body {
             background-color: black;
             color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
         }
+
+        h1 {
+            margin: 10px;
+        }
+
+        input {
+            margin-bottom: 10px;
+            width: 150px;
+            font-weight: bold;
+            font-family:cursive;
+        }
+        
     </style>
 </head>
 <body>
-    <h1>Desafio das Mensagens</h1>
-    <div id="b1">
-        <input type="button" value=" Botao 1 ">
-    </div>
+    <main>
+        <h1>Desafio das Mensagens</h1>
+        <div id="b1" >
+            <input type="button" value=" Botao 1 ">
+        </div>
+        <div id="b2" onclick="alert('Botao 2')">
+            <input type="button" value=" Botao 2 ">
+        </div>
+        <div id="b3" onclick="alert('Botao 3')">
+            <input type="button" value=" Botao 3 ">
+        </div>
+    </main>
 
-    <div id="b2">
-        <input type="button" value=" Botao 2 ">
-    </div>
-
-    <div id="b3">
-        <input type="button" value=" Botao 3 ">
-    </div>
+    <script src="index.js"></script>
 </body>
 </html>
