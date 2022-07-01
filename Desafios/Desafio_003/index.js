@@ -4,5 +4,5 @@ bt.addEventListener ("click", clicar)
 
 function clicar() {
     let n = window.prompt ('Digite um numero')
-    window.alert (`antes de ${n}, temos o número ${--n} / Depois de ${n}, temos o número ${++n}`)
+    window.alert (`antes de ${n}, temos o número ${--n} \n Depois de ${n}, temos o número ${++n}`)
 }
